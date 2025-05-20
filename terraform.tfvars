@@ -1,0 +1,13 @@
+aws_region                = "ap-south-1"
+vpc_cidr_block            = "10.0.0.0/16"
+vpc_name                  = "Dev-Vpc"
+azs                       = ["ap-south-1a", "ap-south-1b"]
+P_cidr_block              = ["10.0.1.0/24", "10.0.2.0/24"]
+P-Subnets_name            = "Dev-Public-Sub"
+Pri_cidr_block            = ["10.0.3.0/24", "10.0.4.0/24", "10.0.5.0/24", "10.0.6.0/24"]
+Pri_Subnets_name          = "Dev-Private-Sub"
+aws_internet_gateway_name = "IGW"
+aws_nat_gateway_name      = "Dev-Custom-Nat"
+rt_types                  = ["public", "private"]
+aws_security_group_name   = "Dev-SG"
+ingress_values            = ["22", "80", "443", "3306"]

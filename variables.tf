@@ -1,0 +1,13 @@
+variable "aws_region" {}
+variable "vpc_cidr_block" {}
+variable "vpc_name" {}
+variable "azs" {}
+variable "P_cidr_block" {}
+variable "P-Subnets_name" {}
+variable "Pri_cidr_block" {}
+variable "Pri_Subnets_name" {}
+variable "aws_internet_gateway_name" {}
+variable "aws_nat_gateway_name" {}
+variable "rt_types" {}
+variable "aws_security_group_name" {}
+variable "ingress_values" {}
